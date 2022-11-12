@@ -11,20 +11,20 @@ html, body { height: 100% }
 
 body { 
   font-family: sans-serif;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   background-image: url('../images/denim.png');
 }
 
 /*style the header */
 header{
-    background-color: rgb(253, 7, 7);
+    background-color: rgba(15,24,34,255);
     position: sticky;
     top: 0;
     text-align: center;
 }
 
-#main-logo {width: 300px; padding: 10px 0;}
+#main-logo {width: 450px; padding: 10px 0;}
 
 /* main section styles */
 #character-nav {
@@ -32,10 +32,10 @@ header{
      background-color: #ff6060;
 
      /*add a background image to the nav elements */
-     background-image: url("../images/characters_art_mas_mob_01.jpeg");
+     background-image: url("../images/valorant_bg.jpg");
      background-repeat: no-repeat;
-     background-size: cover;
-
+     background-size: 50cm;
+    background-position: center;
      background-blend-mode: multiply;
     }
 
@@ -66,13 +66,13 @@ header{
     width: 150px;
     height: 150px;
 
-    background-image: url("../images/marvelSprites.jpg");
+    background-image: url("../images/css_sprites.png");
 }
 
 .sprite:hover { background-position-y: -150px !important;}
 
-#carol {background-position: -150px 0;}
-#clint {background-position: -300px 0;}
+#chamber {background-position: -150px 0;}
+#sova {background-position: -300px 0;}
 #hulk {background-position: -450px 0;}
 #thor {background-position: -600px 0;}
 #widow {background-position: -750px 0;}
@@ -159,7 +159,7 @@ footer{
 }
 
 #lightBox2 {
-    background-image: url('../images/Thor_LB_Bg.png');
+    background-image: url('../images/jett_lb_bg.png');
 }
 
 /* toggle the lightbox on */
