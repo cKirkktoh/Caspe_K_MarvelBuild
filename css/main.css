@@ -71,11 +71,11 @@ header{
 
 .sprite:hover { background-position-y: -150px !important;}
 
-#chamber {background-position: -150px 0;}
-#sova {background-position: -300px 0;}
-#hulk {background-position: -450px 0;}
-#thor {background-position: -600px 0;}
-#widow {background-position: -750px 0;}
+#chamber {background-position: 0px 0;}
+#sova {background-position: -150px 0;}
+#sage {background-position: -300px 0;}
+#jett {background-position: -450px 0;}
+#viper {background-position: -600px 0;}
 
 .red-bumper {height: 6px; background-color: rgb(255, 0, 0);}
 
@@ -155,11 +155,32 @@ footer{
 }
 
 #lightBox {
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-image: url('../images/chamber_lb_bg.png');
+    background-size: 28cm;
+    background-position-y: -40px;
+    background-position-x:  -150px; ;
 }
 
 #lightBox2 {
     background-image: url('../images/jett_lb_bg.png');
+    background-size: 15cm;
+}
+
+#lightBox3 {
+    background-image: url('../images/sova_lb_bg.png');
+    background-size: 28cm;
+    background-position-y: -40px;
+    background-position-x:  -150px; ;
+}
+
+#lightBox4 {
+    background-image: url('../images/sage_lb_bg.png');
+    background-size: 15cm;
+}
+
+#lightBox5 {
+    background-image: url('../images/viper_lb_bg.png');
+    background-size: 15cm;
 }
 
 /* toggle the lightbox on */
