@@ -1,6 +1,6 @@
-# Caspe_K_MarvelBuild
+# Caspe_K_Valorant_CSS_CharacterBuild
 
-All about Marvel heroes! Click an image to learn more.
+It's all about the different Valorant agents. Click to learn more about them!
 
 ## Contributing
 
@@ -12,7 +12,7 @@ All about Marvel heroes! Click an image to learn more.
 
 ## Credits
 
-all images are copyright by Marvel
+all images are copyright by Riot Games
 
 ## License
 
